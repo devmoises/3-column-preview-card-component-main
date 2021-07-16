@@ -57,6 +57,7 @@ body{
    width: 327px;
    margin-left: auto;
    margin-right: auto;
+   overflow: hidden;
 }
 
 @media (min-width: 960px){
@@ -71,19 +72,8 @@ body{
 
 .cards__item{
    padding: 48px;
-   border-radius: var(--border-radius-card);
    display: flex;
    flex-direction: column;
-}
-
-.cards__item:last-child{   
-   border-top-right-radius: 0;
-   border-top-left-radius: 0;
-}
-
-.cards__item:last-child{   
-   border-top-right-radius: var(--border-radius-card);
-   border-bottom-left-radius: 0;
 }
 
 .color-orange{
